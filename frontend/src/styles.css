@@ -1,0 +1,27 @@
+body { font-family: Inter, system-ui, Arial; background:#f7fafc; margin:0; padding:20px; }
+.container { max-width: 880px; margin: 0 auto; }
+h1 { margin-bottom: 12px; font-size: 20px; }
+.chat { min-height: 320px; background:#fff; border-radius:8px; padding: 16px; border: 1px solid #eee; overflow:auto; }
+.message { margin: 8px 0; display:flex; }
+.message.user { justify-content: flex-end; }
+.bubble { padding:10px 12px; border-radius: 10px; max-width:80%; }
+.message.user .bubble { background:#e0ffe6; }
+.message.bot .bubble { background:#f1f1f1; }
+.input-row { display:flex; margin-top:12px; }
+.input-row input { flex:1; padding:10px; border-radius:6px; border:1px solid #ddd; }
+.input-row button { padding:10px 14px; margin-left:8px; border-radius:6px; border:none; background:#2563EB; color:#fff; }
+
+.cards { margin-top: 8px; display:flex; flex-direction:column; gap:8px; }
+.card { border: 1px solid #eee; padding:10px; border-radius:8px; background:#fff; }
+
+.floor-plan {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.card-title { font-weight:700; }
+.muted { color:#666; font-size:13px; margin-top:6px; }
+.amen { margin-top:8px; color:#333; }
+.cta { margin-top:8px; display:inline-block; color:#2563EB; text-decoration:none; }
