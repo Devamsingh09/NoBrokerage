@@ -1,4 +1,4 @@
-# backend/nlp/parser.py
+
 import re
 
 def parse_query(q: str) -> dict:
@@ -58,7 +58,7 @@ def parse_query(q: str) -> dict:
     if m:
         out['locality'] = m.group(1).strip()
 
-    # Project name: quoted or "project <name>"
+    # Project name: quoted or "project name"
     m = re.search(r'project\s+([A-Za-z0-9\s\-\&]+)', q, re.IGNORECASE)
     if m:
         out['project_name'] = m.group(1).strip()
