@@ -1,4 +1,4 @@
-# backend/nlp/summarizer.py
+
 from typing import List
 import math
 
