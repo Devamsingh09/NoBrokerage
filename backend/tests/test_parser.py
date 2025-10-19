@@ -1,4 +1,3 @@
-# backend/tests/test_parser.py
 from nlp.parser import parse_query
 
 def test_parse_basic():
